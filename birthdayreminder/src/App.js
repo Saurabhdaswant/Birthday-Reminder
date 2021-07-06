@@ -9,7 +9,7 @@ const App = () => {
       id: 1,
     },
     {
-      firstName: "Robert desmukh",
+      firstName: "Robert deshmukh",
       years: 18,
       img: "https://images.pexels.com/photos/3718045/pexels-photo-3718045.jpeg?cs=srgb&dl=pexels-caroline-ayumi-fugitani-3718045.jpg&fm=jpg",
       id: 2,
