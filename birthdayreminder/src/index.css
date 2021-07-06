@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #f7f8fc;
+}
+
+img {
+  max-width: 100%;
+}
+
+.App {
+  /* background-color: aqua; */
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.birthdayCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+  padding: 0.5rem 1rem;
+  border-left: 5px black solid;
+  background-color: #e5e5e5;
+  border-radius: 5px;
+  box-shadow: 0 12px 12px -11px #f0ecec;
+}
+
+.birthdayCard img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+.btn {
+  padding: 0.7rem 1.5rem;
+  background: #eeeeee;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.18),
+    -4px -4px 10px rgba(255, 255, 255, 0.48);
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
