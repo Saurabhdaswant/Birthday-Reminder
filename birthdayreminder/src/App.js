@@ -38,18 +38,24 @@ const App = () => {
 
   return (
     <div className="App">
+      <h1>Birthday Reminder</h1>
+
       {people.map(({ years, img, id, firstName }) => {
         return (
           <div className="birthdayCard" key={id}>
-            <h1>{firstName}</h1>
-            <h1>{years}</h1>
-            <img src={img} alt="" />
+            <div className="userDetail">
+              <img src={img} alt="" />
+              <div className="userInfo">
+                <h2>{firstName}</h2>
+                <h3>years {years}</h3>
+              </div>
+            </div>
             <button
               className="btn"
               type="button"
               onClick={() => handleClick(id)}
             >
-              party bhetle
+              clear
             </button>
           </div>
         );
